@@ -59,8 +59,6 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerView.ViewH
             imgView_icon = itemView.findViewById(R.id.imgView_icon);
             txtView_title = itemView.findViewById(R.id.txtView_title);
             txtView_description = itemView.findViewById(R.id.txtView_description);
-
-
         }
     }
 }

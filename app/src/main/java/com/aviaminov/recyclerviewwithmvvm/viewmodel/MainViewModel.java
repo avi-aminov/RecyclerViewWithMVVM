@@ -24,17 +24,25 @@ public class MainViewModel extends ViewModel {
     }
 
     public void init(){
-        populateList();
+        demoUsers();
         userLiveData.setValue(userArrayList);
     }
 
-    public void populateList(){
+    public void demoUsers(){
 
         User user = new User();
         user.setTitle("Darknight");
         user.setDescription("Best rating movie");
 
         userArrayList = new ArrayList<>();
+        userArrayList.add(user);
+        userArrayList.add(user);
+        userArrayList.add(user);
+        userArrayList.add(user);
+        userArrayList.add(user);
+        userArrayList.add(user);
+        userArrayList.add(user);
+        userArrayList.add(user);
         userArrayList.add(user);
         userArrayList.add(user);
         userArrayList.add(user);

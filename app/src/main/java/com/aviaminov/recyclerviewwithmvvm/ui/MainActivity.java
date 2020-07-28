@@ -1,4 +1,4 @@
-package com.aviaminov.recyclerviewwithmvvm;
+package com.aviaminov.recyclerviewwithmvvm.ui;
 
 import android.os.Bundle;
 
@@ -9,6 +9,7 @@ import androidx.lifecycle.ViewModelProviders;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.aviaminov.recyclerviewwithmvvm.R;
 import com.aviaminov.recyclerviewwithmvvm.adapter.RecyclerViewAdapter;
 import com.aviaminov.recyclerviewwithmvvm.model.User;
 import com.aviaminov.recyclerviewwithmvvm.viewmodel.MainViewModel;
